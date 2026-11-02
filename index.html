@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Demon List</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0b0c10;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #66fcf1;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 15px rgba(102, 252, 241, 0.4);
+        }
+
+        header p {
+            color: #c5c6c7;
+            margin-top: 8px;
+            font-size: 1.1rem;
+        }
+
+        .list-container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .level-card {
+            background-color: #1f2833;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #45a29e;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .level-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(102, 252, 241, 0.2);
+        }
+
+        .level-thumb {
+            width: 240px;
+            height: 150px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .level-info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .rank {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #66fcf1;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .level-title {
+            font-size: 1.6rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .details {
+            font-size: 0.95rem;
+            color: #c5c6c7;
+            line-height: 1.4;
+        }
+
+        .details span {
+            color: #45a29e;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .level-card {
+                flex-direction: column;
+            }
+            .level-thumb {
+                width: 100%;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Demon List</h1>
+        <p>Los niveles más difíciles de la comunidad</p>
+    </header>
+
+    <div class="list-container">
+
+        <!-- TOP 0 -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/brybXL2V/platinum-adventure-top-0.png" alt="Platinum adventure">
+            <div class="level-info">
+                <div class="rank">#0</div>
+                <h2 class="level-title">Platinum adventure</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> Jerry4</p>
+                    <p><span>Verificado por:</span> AwaKristal</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 1 -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/wv3YJZ4D/CYCLES-VERIFIED-TOP-1.png" alt="Cycles">
+            <div class="level-info">
+                <div class="rank">#1</div>
+                <h2 class="level-title">Cycles</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> RobTop</p>
+                    <p><span>Verificado por:</span> OhioOXN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 2 -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/cJKwkMHW/cant-let-go-verified-top-2.png" alt="Cant let go">
+            <div class="level-info">
+                <div class="rank">#2</div>
+                <h2 class="level-title">Cant let go</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> RobTop</p>
+                    <p><span>Verificado por:</span> OhioOXN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 2.5 -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/5t0dhjdy/jumper-verified-top-2-5.png" alt="Jumper">
+            <div class="level-info">
+                <div class="rank">#2.5</div>
+                <h2 class="level-title">Jumper</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> RobTop</p>
+                    <p><span>Verificado por:</span> OhioOXN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 67 MILLONES -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/yNXgbQKd/back-on-track-top-67-millones.png" alt="Back on Track">
+            <div class="level-info">
+                <div class="rank">#67,000,000</div>
+                <h2 class="level-title">Back on Track</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> RobTop</p>
+                    <p><span>Verificado por:</span> OhioOXN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOP 10 MIL TRILLONES -->
+        <div class="level-card">
+            <img class="level-thumb" src="https://i.postimg.cc/8PQFTgC8/polargeist-verified-top-10-mil-trillones.png" alt="Polargeist">
+            <div class="level-info">
+                <div class="rank">#10,000,000,000,000,000</div>
+                <h2 class="level-title">Polargeist</h2>
+                <div class="details">
+                    <p><span>Publicado por:</span> RobTop</p>
+                    <p><span>Verificado por:</span> OhioOXN</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
