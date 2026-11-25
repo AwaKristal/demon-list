@@ -1,26 +1,19 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#06070d",
   "dir": "ltr",
   "display": "standalone",
   "name": "Demon List",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/demon-list/",
   "short_name": "Demon List",
-  "start_url": "/",
-  "theme_color": "#ffffff",
+  "start_url": "/demon-list/",
+  "theme_color": "#06070d",
   "icons": [
     {
-      "src": "https://i.postimg.cc/W1GyDD51/Espeakbrodal.jpg",
-      "type": "image/jpeg",
-      "sizes": "668x667",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": true,
-      "width": 668,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "espeakbrodal.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "id": "Awa-Demon-List",
