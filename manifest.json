@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Demon List",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Demon List",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/W1GyDD51/Espeakbrodal.jpg",
+      "type": "image/jpeg",
+      "sizes": "668x667",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": true,
+      "width": 668,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "Awa-Demon-List",
+  "description": "LOS NIVELES MAS PODEROSOS"
+}
